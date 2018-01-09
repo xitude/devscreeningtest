@@ -1,0 +1,74 @@
+/*
+#####################################
+# Consider the following HTML and CSS
+#####################################
+
+<p class="red">
+    <a id="link" class="blue" href="#">link</a>
+</p>
+
+*/
+
+body a {
+    color: purple;
+}
+
+#link {
+    color: black;
+}
+
+.red a {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+/*
+Now answer the following questions
+
+a) What colour will the link text be for the above HTML?
+
+b) What colour will the link text be if the id is removed from the link?
+
+c) Did you cheat?
+*/
+
+
+
+
+/*
+############################
+# Consider the following CSS
+############################
+*/
+
+.foo {
+    background: red;
+}
+.foo:before {
+    content: "";
+    float: left;
+    width: 0;
+    height: 0;
+    padding-bottom: 70.707%;
+}
+.foo:after {
+    content: "";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+    visibility: hidden;
+}
+
+/*
+Now answer the following questions:
+
+a) What does the :after pseudo-element do here?
+
+b) What does the :before pseudo-element do here?
+
+c) Why might you use this?
+*/

@@ -1,0 +1,119 @@
+<!--
+####################################################################################
+# Which of the following is more semantically correct (for the title of a document)?
+####################################################################################
+-->
+
+<!-- A -->
+<span class="title">This is a Title</span>
+
+<!-- B -->
+<h1>This is a Title</h1>
+
+<!-- C -->
+<p><b>This is a Title</b></p>
+
+<!-- B is a Heading Tag -->
+
+<!--
+########################################################################################
+# When marking up multiple paragraphs within a list item, which method makes most sense?
+########################################################################################
+-->
+
+<!-- A -->
+<ul>
+    <li>Paragraph 1<br /><br />
+    Paragraph 2</li>
+</ul>
+
+
+<!-- B -->
+<ul>
+    <li>Paragraph 1
+    <p>Paragraph 2</p></li>
+</ul>
+
+<!-- C -->
+<ul>
+    <li>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+    </li>
+</ul>
+
+<!-- C is an unoriginised list -->
+
+<!--
+######################################################
+# Which of the following is more semantically correct?
+######################################################
+-->
+
+<!-- A -->
+<h2>Some Things We Love</h2>
+<ul>
+    <li>Coffee</li>
+    <li>Dinosaurs</li>
+    <li>Bar Billiards</li>
+    <li>Chicken Katsu</li>
+</ul>
+
+<!-- B -->
+<dl>
+    <dt>Some Things We Love</dt>
+    <dd>Coffee</dd>
+    <dd>Dinosaurs</dd>
+    <dd>Bar Billiards</dd>
+    <dd>Chicken Katsu</dd>
+</dl>
+
+
+<!--
+#############################################################
+# Refactor the following snippet using modern, semantic HTML5
+#############################################################
+-->
+<div>
+    <h1>The Pink Gin &amp; Tonic</h1>
+    <p>Discover our modern twist on the quintessentially British Pink Gin.</p>
+    <img src="http://fevertree2.d3r-cdn.com/images/default/3711-fever-tree89191.jpg" width="750" height="525" />
+    <p><strong>Ingredients</strong></p>
+    <p><a href="http://www.fever-tree.com/aromatic-tonic-water">Aromatic Tonic Water </a></p>
+    <p>50ml of juniper-rich gin - we recommend Plymouth Gin, Sipsmith VJOP, or a navy strength such as Bathtub.</p>
+    <p>Zest of lemon</p>
+    <p>Fresh ice</p>
+    <p><strong>Method</strong></p>
+    <p>Fill a highball glass with plenty of ice. Pour in your measure of gin.</p>
+    <p>Add Fever-Tree Aromatic Tonic from a fresh bottle.</p>
+    <p>Garnish with a generous zest of lemon.</p>
+</div>
+
+
+<!--
+###############################
+# Consider the following markup
+###############################
+-->
+
+<img src="c.jpg"
+     srcset="a.jpg 270w, b.jpg 650w, c.jpg 800w, d.jpg 1600w"
+     sizes="(min-width: 1670px) 800px,
+            (max-width: 640px) calc(100vw - 50px),
+            calc(50vw - 35px)" />
+
+<!--
+
+Which image will be displayed on the following devices and why?
+
+You may assume all browsers fully support srcset.
+
+a) A large desktop machine with viewport 2000x1200 and pixel density 1.
+
+b) A portrait smartphone with viewport 375x667 and pixel density of 2.
+
+c) A laptop with viewport 1500x700 and pixel density 2.
+
+d) A landscape tablet with viewport 1024x768 and pixel density 1.
+
+-->
