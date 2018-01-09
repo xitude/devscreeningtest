@@ -42,7 +42,7 @@
     </li>
 </ul>
 
-<!-- C is an unoriginised list -->
+<!-- C is an unorganised list -->
 
 <!--
 ######################################################
@@ -68,26 +68,32 @@
     <dd>Chicken Katsu</dd>
 </dl>
 
+<!-- B but would require some basic styling to look more inline and titled. -->
+
 
 <!--
 #############################################################
 # Refactor the following snippet using modern, semantic HTML5
 #############################################################
 -->
-<div>
+<article>
     <h1>The Pink Gin &amp; Tonic</h1>
     <p>Discover our modern twist on the quintessentially British Pink Gin.</p>
     <img src="http://fevertree2.d3r-cdn.com/images/default/3711-fever-tree89191.jpg" width="750" height="525" />
-    <p><strong>Ingredients</strong></p>
-    <p><a href="http://www.fever-tree.com/aromatic-tonic-water">Aromatic Tonic Water </a></p>
-    <p>50ml of juniper-rich gin - we recommend Plymouth Gin, Sipsmith VJOP, or a navy strength such as Bathtub.</p>
-    <p>Zest of lemon</p>
-    <p>Fresh ice</p>
-    <p><strong>Method</strong></p>
-    <p>Fill a highball glass with plenty of ice. Pour in your measure of gin.</p>
-    <p>Add Fever-Tree Aromatic Tonic from a fresh bottle.</p>
-    <p>Garnish with a generous zest of lemon.</p>
-</div>
+    <h3>Ingredients</h3>
+    <p><a href="http://www.fever-tree.com/aromatic-tonic-water">Aromatic Tonic Water</a></p>
+    <ul>
+        <li>50ml of juniper-rich gin - we recommend Plymouth Gin, Sipsmith VJOP, or a navy strength such as Bathtub.</li>
+        <li>Zest of lemon</li>
+        <li>Fresh ice</li>
+    </ul>
+    <h3>Method</h3>
+    <ol>
+        <li>Fill a highball glass with plenty of ice. Pour in your measure of gin.</li>
+        <li>Add Fever-Tree Aromatic Tonic from a fresh bottle.</li>
+        <li>Garnish with a generous zest of lemon.</li>
+    </ol>
+</article>
 
 
 <!--
@@ -108,12 +114,18 @@ Which image will be displayed on the following devices and why?
 
 You may assume all browsers fully support srcset.
 
+-- Good because ie and opera mini has issues with srcset
+
 a) A large desktop machine with viewport 2000x1200 and pixel density 1.
+d.jpg
 
 b) A portrait smartphone with viewport 375x667 and pixel density of 2.
+b.jpg if the screen/browser is retina enabled
 
 c) A laptop with viewport 1500x700 and pixel density 2.
+d.jpg
 
 d) A landscape tablet with viewport 1024x768 and pixel density 1.
+b.jpg
 
 -->
