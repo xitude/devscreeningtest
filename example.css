@@ -29,13 +29,14 @@ body a {
 Now answer the following questions
 
 a) What colour will the link text be for the above HTML?
+Blue
 
 b) What colour will the link text be if the id is removed from the link?
+Red
 
 c) Did you cheat?
+No, its called a cascading style sheet, the lowest correct rule is priority unless markup is added to the HTML
 */
-
-
 
 
 /*
@@ -67,8 +68,13 @@ c) Did you cheat?
 Now answer the following questions:
 
 a) What does the :after pseudo-element do here?
+Im unsure of the question do you wish to know what a after pseudo-elemnt does in general or what it applies to the .foo
+class? This class applied zero visual changes.
 
 b) What does the :before pseudo-element do here?
+As above im unsure what is requested but it did apply a 70.707% padding, this will most likely create an element that has a red color for 70.707% of its body contained height.
 
 c) Why might you use this?
+Overlays or to define rules before the main context of an elements style rules.
 */
+
